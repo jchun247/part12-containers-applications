@@ -1,0 +1,28 @@
+Script started on Mon May  6 23:52:12 2024
+[1m[7m%[27m[1m[0m                                                                                                                                                                          [0m[27m[24m[Jjustin@Justins-MBP part12-containers-applications % [K[?2004hddocker run -it ubuntu bash[?2004l
+Unable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+
+[1A[2K9502885e1cbc: Pulling fs layer [1B[1A[2K9502885e1cbc: Downloading [>                                                  ]  281.8kB/28.02MB[1B[1A[2K9502885e1cbc: Downloading [==========>                                        ]  5.851MB/28.02MB[1B[1A[2K9502885e1cbc: Downloading [=================>                                 ]   9.96MB/28.02MB[1B[1A[2K9502885e1cbc: Downloading [============================>                      ]  15.82MB/28.02MB[1B[1A[2K9502885e1cbc: Downloading [=========================================>         ]  23.14MB/28.02MB[1B[1A[2K9502885e1cbc: Downloading [================================================>  ]  27.26MB/28.02MB[1B[1A[2K9502885e1cbc: Verifying Checksum [1B[1A[2K9502885e1cbc: Download complete [1B[1A[2K9502885e1cbc: Extracting [>                                                  ]  294.9kB/28.02MB[1B[1A[2K9502885e1cbc: Extracting [============>                                      ]  6.783MB/28.02MB[1B[1A[2K9502885e1cbc: Extracting [===================>                               ]  10.91MB/28.02MB[1B[1A[2K9502885e1cbc: Extracting [======================================>            ]  21.53MB/28.02MB[1B[1A[2K9502885e1cbc: Extracting [==========================================>        ]  23.59MB/28.02MB[1B[1A[2K9502885e1cbc: Extracting [================================================>  ]  27.13MB/28.02MB[1B[1A[2K9502885e1cbc: Extracting [==================================================>]  28.02MB/28.02MB[1B[1A[2K9502885e1cbc: Extracting [==================================================>]  28.02MB/28.02MB[1B[1A[2K9502885e1cbc: Pull complete [1BDigest: sha256:3f85b7caad41a95462cf5b787d8a04604c8262cdcdf9a472b8c52ef83375fe15
+Status: Downloaded newer image for ubuntu:latest
+[?2004h]0;root@eb65ff76ff3f: /root@eb65ff76ff3f:/# mkdir /       ls
+[?2004l[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;36mlib[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+[?2004h]0;root@eb65ff76ff3f: /root@eb65ff76ff3f:/# cd usr
+[?2004l[?2004h]0;root@eb65ff76ff3f: /usrroot@eb65ff76ff3f:/usr# cd    ls
+[?2004l[0m[01;34mbin[0m  [01;34mgames[0m  [01;34minclude[0m  [01;34mlib[0m  [01;34mlibexec[0m  [01;34mlocal[0m  [01;34msbin[0m  [01;34mshare[0m  [01;34msrc[0m
+[?2004h]0;root@eb65ff76ff3f: /usrroot@eb65ff76ff3f:/usr# cd src
+[?2004l[?2004h]0;root@eb65ff76ff3f: /usr/srcroot@eb65ff76ff3f:/usr/src# ls
+[?2004l[?2004h]0;root@eb65ff76ff3f: /usr/srcroot@eb65ff76ff3f:/usr/src# mkdir app
+[?2004l[?2004h]0;root@eb65ff76ff3f: /usr/srcroot@eb65ff76ff3f:/usr/src# ls
+[?2004l[0m[01;34mapp[0m
+[?2004h]0;root@eb65ff76ff3f: /usr/srcroot@eb65ff76ff3f:/usr/src# touch index.js
+[?2004l[?2004h]0;root@eb65ff76ff3f: /usr/srcroot@eb65ff76ff3f:/usr/src# ls
+[?2004l[0m[01;34mapp[0m  index.js
+[?2004h]0;root@eb65ff76ff3f: /usr/srcroot@eb65ff76ff3f:/usr/src# rm index.js
+[?2004l[?2004h]0;root@eb65ff76ff3f: /usr/srcroot@eb65ff76ff3f:/usr/src# cd app
+[?2004l[?2004h]0;root@eb65ff76ff3f: /usr/src/approot@eb65ff76ff3f:/usr/src/app# r touch index.js
+[?2004l[?2004h]0;root@eb65ff76ff3f: /usr/src/approot@eb65ff76ff3f:/usr/src/app# exit
+[?2004lexit
+[1m[7m%[27m[1m[0m                                                                                                                                                                          [0m[27m[24m[Jjustin@Justins-MBP part12-containers-applications % [K[?2004heexit[?2004l
+
+Script done on Mon May  6 23:57:14 2024
